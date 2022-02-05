@@ -153,6 +153,30 @@ Sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/Sources/main.cpp.s
 .PHONY : Sources/main.cpp.s
 
+Sources/test.o: Sources/test.cpp.o
+.PHONY : Sources/test.o
+
+# target to build an object file
+Sources/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/Sources/test.cpp.o
+.PHONY : Sources/test.cpp.o
+
+Sources/test.i: Sources/test.cpp.i
+.PHONY : Sources/test.i
+
+# target to preprocess a source file
+Sources/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/Sources/test.cpp.i
+.PHONY : Sources/test.cpp.i
+
+Sources/test.s: Sources/test.cpp.s
+.PHONY : Sources/test.s
+
+# target to generate assembly for a file
+Sources/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/Sources/test.cpp.s
+.PHONY : Sources/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"
+	@echo "... Sources/test.o"
+	@echo "... Sources/test.i"
+	@echo "... Sources/test.s"
 .PHONY : help
 
 
