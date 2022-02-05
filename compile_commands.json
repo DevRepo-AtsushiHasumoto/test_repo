@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/atsushi/git/test_repo",
+  "command": "/usr/bin/c++  -I/home/atsushi/git/test_repo/Includes -I/usr/local/include  -o CMakeFiles/test01.dir/Sources/main.cpp.o -c /home/atsushi/git/test_repo/Sources/main.cpp",
+  "file": "/home/atsushi/git/test_repo/Sources/main.cpp"
+}
+]

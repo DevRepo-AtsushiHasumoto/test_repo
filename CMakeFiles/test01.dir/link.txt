@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test01.dir/Sources/main.cpp.o -o test01   -L/usr/local/lib 
